@@ -1,0 +1,6 @@
+GetEconomicData the value of {Series}
+GetEconomicData {Series}
+GetEconomicData what's the value of {Series}
+GetEconomicData what is the value of {Series}
+GetEconomicData give me the value of {Series}
+GetEconomicData tell me the value of {Series}

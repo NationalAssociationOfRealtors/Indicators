@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "intent": "GetEconomicData",
+      "slots": [
+        {
+          "name": "Series",
+          "type": "LIST_OF_SERIES"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    }
+  ]
+}
