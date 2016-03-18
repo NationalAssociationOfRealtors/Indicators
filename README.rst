@@ -33,8 +33,10 @@ From the `AWS CLI`_, create the Lambda Function and upload your deployment packa
 
   .. _AWS CLI: http://docs.aws.amazon.com/lambda/latest/dg/setup.html
 
-aws lambda create-function --region [your_region] --function-name [your_function] --zip-file fileb://[your_package].zip
---role [your_aws_iam_role]  --handler [your_lambda_handler] --runtime python2.7 --timeout 15 --memory-size 512
+::
+
+      aws lambda create-function --region [your_region] --function-name [your_function] --zip-file fileb://[your_package].zip
+      --role [your_aws_iam_role]  --handler [your_lambda_handler] --runtime python2.7 --timeout 15 --memory-size 512
 
 From the AWS Lambda Console, add the "Alexa Skills Kit" event source to your Lambda Function.
 
@@ -56,7 +58,7 @@ Get a response from Alexa:
 
 ::
 
-    GDP is eighteen trillion, one hundred and twenty-eight billion, two hundred million.
+    Gross Domestic Product is eighteen thousand, one hundred and forty-eight point four,  measured in billions of dollars.
 
 
 
