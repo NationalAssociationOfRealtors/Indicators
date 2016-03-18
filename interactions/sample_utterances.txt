@@ -358,3 +358,4 @@ AMAZON.StopIntent thank you
 AMAZON.StopIntent shut up
 AMAZON.StopIntent cancel
 AMAZON.StopIntent exit
+AMAZON.StopIntent goodbye
