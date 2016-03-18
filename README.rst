@@ -1,9 +1,9 @@
-Federal Reserve Economic Data (FRED) Alexa Service
-==================================================
+FRBAlexa
+========
 Alexa Service for interacting with the Federal Reserve Bank's
 FRED API.
 
-.. note::
+::
 
   This is a third-party application that is developed and maintained
   independently of the Federal Reserve Bank. As such, it is not
@@ -14,11 +14,12 @@ Features
 
 This application was built to provide users with a framework for
 leveraging natural language to request information about economic data
-from the FRED API (via the Amazon Echo).
+from the FRED API.
 
-At this point, we only support requesting information about Gross Domestic
-Product. We're actively working to generalize the model so that we can support
-a wider range of economic data series. Stay tuned.
+Visit the `Federal Reserve Bank of St. Louis` to browse
+available economic data series.
+
+  .. _Federal Reserve Bank of St. Louis: https://research.stlouisfed.org/fred2/
 
 Installation
 ------------
