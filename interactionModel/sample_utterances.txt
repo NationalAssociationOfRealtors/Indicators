@@ -1,6 +1,360 @@
-GetEconomicData the value of {Series}
-GetEconomicData {Series}
-GetEconomicData what's the value of {Series}
-GetEconomicData what is the value of {Series}
-GetEconomicData give me the value of {Series}
-GetEconomicData tell me the value of {Series}
+GetEconomicData  {GDP | Series}
+GetEconomicData  {Unemployment | Series}
+GetEconomicData  {Unemployment Rate | Series}
+GetEconomicData  {Unemployment in Greece | Series}
+GetEconomicData  {dow jones | Series}
+GetEconomicData  {Federl debt | Series}
+GetEconomicData  {Money Stock | Series}
+GetEconomicData  {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData  {Housing Starts | Series}
+GetEconomicData  {Consumer Price Index in the United States | Series}
+GetEconomicData  {Probability of a recession in the United States | Series}
+GetEconomicData  {U.S. Euro Exchange Rate | Series}
+GetEconomicData  {dow jones industrial average | Series}
+GetEconomicData  {volatility | Series}
+GetEconomicData  {Total nonfarm payrolls | Series}
+GetEconomicData  {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData  {University of Michigan Inflation Expectation | Series}
+GetEconomicData  {Real Retail and Food Services Sales | Series}
+GetEconomicData  {Real Median Household Income in the United States | Series}
+GetEconomicData  {Ten year Swap Rate | Series}
+GetEconomicData  {Ten year treasury | Series}
+GetEconomicData  {Crude Oil Prices | Series}
+GetEconomicData  {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData  {Industrial Production Index | Series}
+GetEconomicData  {Federal Surplus or Deficit | Series}
+GetEconomicData the value of {GDP | Series}
+GetEconomicData the value of {Unemployment | Series}
+GetEconomicData the value of {Unemployment Rate | Series}
+GetEconomicData the value of {Unemployment in Greece | Series}
+GetEconomicData the value of {dow jones | Series}
+GetEconomicData the value of {Federl debt | Series}
+GetEconomicData the value of {Money Stock | Series}
+GetEconomicData the value of {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData the value of {Housing Starts | Series}
+GetEconomicData the value of {Consumer Price Index in the United States | Series}
+GetEconomicData the value of {Probability of a recession in the United States | Series}
+GetEconomicData the value of {U.S. Euro Exchange Rate | Series}
+GetEconomicData the value of {dow jones industrial average | Series}
+GetEconomicData the value of {volatility | Series}
+GetEconomicData the value of {Total nonfarm payrolls | Series}
+GetEconomicData the value of {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData the value of {University of Michigan Inflation Expectation | Series}
+GetEconomicData the value of {Real Retail and Food Services Sales | Series}
+GetEconomicData the value of {Real Median Household Income in the United States | Series}
+GetEconomicData the value of {Ten year Swap Rate | Series}
+GetEconomicData the value of {Ten year treasury | Series}
+GetEconomicData the value of {Crude Oil Prices | Series}
+GetEconomicData the value of {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData the value of {Industrial Production Index | Series}
+GetEconomicData the value of {Federal Surplus or Deficit | Series}
+GetEconomicData what is {GDP | Series}
+GetEconomicData what is {Unemployment | Series}
+GetEconomicData what is {Unemployment Rate | Series}
+GetEconomicData what is {Unemployment in Greece | Series}
+GetEconomicData what is {dow jones | Series}
+GetEconomicData what is {Federl debt | Series}
+GetEconomicData what is {Money Stock | Series}
+GetEconomicData what is {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData what is {Housing Starts | Series}
+GetEconomicData what is {Consumer Price Index in the United States | Series}
+GetEconomicData what is {Probability of a recession in the United States | Series}
+GetEconomicData what is {U.S. Euro Exchange Rate | Series}
+GetEconomicData what is {dow jones industrial average | Series}
+GetEconomicData what is {volatility | Series}
+GetEconomicData what is {Total nonfarm payrolls | Series}
+GetEconomicData what is {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData what is {University of Michigan Inflation Expectation | Series}
+GetEconomicData what is {Real Retail and Food Services Sales | Series}
+GetEconomicData what is {Real Median Household Income in the United States | Series}
+GetEconomicData what is {Ten year Swap Rate | Series}
+GetEconomicData what is {Ten year treasury | Series}
+GetEconomicData what is {Crude Oil Prices | Series}
+GetEconomicData what is {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData what is {Industrial Production Index | Series}
+GetEconomicData what is {Federal Surplus or Deficit | Series}
+GetEconomicData what's {GDP | Series}
+GetEconomicData what's {Unemployment | Series}
+GetEconomicData what's {Unemployment Rate | Series}
+GetEconomicData what's {Unemployment in Greece | Series}
+GetEconomicData what's {dow jones | Series}
+GetEconomicData what's {Federl debt | Series}
+GetEconomicData what's {Money Stock | Series}
+GetEconomicData what's {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData what's {Housing Starts | Series}
+GetEconomicData what's {Consumer Price Index in the United States | Series}
+GetEconomicData what's {Probability of a recession in the United States | Series}
+GetEconomicData what's {U.S. Euro Exchange Rate | Series}
+GetEconomicData what's {dow jones industrial average | Series}
+GetEconomicData what's {volatility | Series}
+GetEconomicData what's {Total nonfarm payrolls | Series}
+GetEconomicData what's {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData what's {University of Michigan Inflation Expectation | Series}
+GetEconomicData what's {Real Retail and Food Services Sales | Series}
+GetEconomicData what's {Real Median Household Income in the United States | Series}
+GetEconomicData what's {Ten year Swap Rate | Series}
+GetEconomicData what's {Ten year treasury | Series}
+GetEconomicData what's {Crude Oil Prices | Series}
+GetEconomicData what's {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData what's {Industrial Production Index | Series}
+GetEconomicData what's {Federal Surplus or Deficit | Series}
+GetEconomicData what is the {GDP | Series}
+GetEconomicData what is the {Unemployment | Series}
+GetEconomicData what is the {Unemployment Rate | Series}
+GetEconomicData what is the {Unemployment in Greece | Series}
+GetEconomicData what is the {dow jones | Series}
+GetEconomicData what is the {Federl debt | Series}
+GetEconomicData what is the {Money Stock | Series}
+GetEconomicData what is the {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData what is the {Housing Starts | Series}
+GetEconomicData what is the {Consumer Price Index in the United States | Series}
+GetEconomicData what is the {Probability of a recession in the United States | Series}
+GetEconomicData what is the {U.S. Euro Exchange Rate | Series}
+GetEconomicData what is the {dow jones industrial average | Series}
+GetEconomicData what is the {volatility | Series}
+GetEconomicData what is the {Total nonfarm payrolls | Series}
+GetEconomicData what is the {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData what is the {University of Michigan Inflation Expectation | Series}
+GetEconomicData what is the {Real Retail and Food Services Sales | Series}
+GetEconomicData what is the {Real Median Household Income in the United States | Series}
+GetEconomicData what is the {Ten year Swap Rate | Series}
+GetEconomicData what is the {Ten year treasury | Series}
+GetEconomicData what is the {Crude Oil Prices | Series}
+GetEconomicData what is the {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData what is the {Industrial Production Index | Series}
+GetEconomicData what is the {Federal Surplus or Deficit | Series}
+GetEconomicData what's the value of {GDP | Series}
+GetEconomicData what's the value of {Unemployment | Series}
+GetEconomicData what's the value of {Unemployment Rate | Series}
+GetEconomicData what's the value of {Unemployment in Greece | Series}
+GetEconomicData what's the value of {dow jones | Series}
+GetEconomicData what's the value of {Federl debt | Series}
+GetEconomicData what's the value of {Money Stock | Series}
+GetEconomicData what's the value of {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData what's the value of {Housing Starts | Series}
+GetEconomicData what's the value of {Consumer Price Index in the United States | Series}
+GetEconomicData what's the value of {Probability of a recession in the United States | Series}
+GetEconomicData what's the value of {U.S. Euro Exchange Rate | Series}
+GetEconomicData what's the value of {dow jones industrial average | Series}
+GetEconomicData what's the value of {volatility | Series}
+GetEconomicData what's the value of {Total nonfarm payrolls | Series}
+GetEconomicData what's the value of {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData what's the value of {University of Michigan Inflation Expectation | Series}
+GetEconomicData what's the value of {Real Retail and Food Services Sales | Series}
+GetEconomicData what's the value of {Real Median Household Income in the United States | Series}
+GetEconomicData what's the value of {Ten year Swap Rate | Series}
+GetEconomicData what's the value of {Ten year treasury | Series}
+GetEconomicData what's the value of {Crude Oil Prices | Series}
+GetEconomicData what's the value of {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData what's the value of {Industrial Production Index | Series}
+GetEconomicData what's the value of {Federal Surplus or Deficit | Series}
+GetEconomicData what is the value of {GDP | Series}
+GetEconomicData what is the value of {Unemployment | Series}
+GetEconomicData what is the value of {Unemployment Rate | Series}
+GetEconomicData what is the value of {Unemployment in Greece | Series}
+GetEconomicData what is the value of {dow jones | Series}
+GetEconomicData what is the value of {Federl debt | Series}
+GetEconomicData what is the value of {Money Stock | Series}
+GetEconomicData what is the value of {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData what is the value of {Housing Starts | Series}
+GetEconomicData what is the value of {Consumer Price Index in the United States | Series}
+GetEconomicData what is the value of {Probability of a recession in the United States | Series}
+GetEconomicData what is the value of {U.S. Euro Exchange Rate | Series}
+GetEconomicData what is the value of {dow jones industrial average | Series}
+GetEconomicData what is the value of {volatility | Series}
+GetEconomicData what is the value of {Total nonfarm payrolls | Series}
+GetEconomicData what is the value of {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData what is the value of {University of Michigan Inflation Expectation | Series}
+GetEconomicData what is the value of {Real Retail and Food Services Sales | Series}
+GetEconomicData what is the value of {Real Median Household Income in the United States | Series}
+GetEconomicData what is the value of {Ten year Swap Rate | Series}
+GetEconomicData what is the value of {Ten year treasury | Series}
+GetEconomicData what is the value of {Crude Oil Prices | Series}
+GetEconomicData what is the value of {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData what is the value of {Industrial Production Index | Series}
+GetEconomicData what is the value of {Federal Surplus or Deficit | Series}
+GetEconomicData give me {GDP | Series}
+GetEconomicData give me {Unemployment | Series}
+GetEconomicData give me {Unemployment Rate | Series}
+GetEconomicData give me {Unemployment in Greece | Series}
+GetEconomicData give me {dow jones | Series}
+GetEconomicData give me {Federl debt | Series}
+GetEconomicData give me {Money Stock | Series}
+GetEconomicData give me {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData give me {Housing Starts | Series}
+GetEconomicData give me {Consumer Price Index in the United States | Series}
+GetEconomicData give me {Probability of a recession in the United States | Series}
+GetEconomicData give me {U.S. Euro Exchange Rate | Series}
+GetEconomicData give me {dow jones industrial average | Series}
+GetEconomicData give me {volatility | Series}
+GetEconomicData give me {Total nonfarm payrolls | Series}
+GetEconomicData give me {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData give me {University of Michigan Inflation Expectation | Series}
+GetEconomicData give me {Real Retail and Food Services Sales | Series}
+GetEconomicData give me {Real Median Household Income in the United States | Series}
+GetEconomicData give me {Ten year Swap Rate | Series}
+GetEconomicData give me {Ten year treasury | Series}
+GetEconomicData give me {Crude Oil Prices | Series}
+GetEconomicData give me {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData give me {Industrial Production Index | Series}
+GetEconomicData give me {Federal Surplus or Deficit | Series}
+GetEconomicData give me the value of {GDP | Series}
+GetEconomicData give me the value of {Unemployment | Series}
+GetEconomicData give me the value of {Unemployment Rate | Series}
+GetEconomicData give me the value of {Unemployment in Greece | Series}
+GetEconomicData give me the value of {dow jones | Series}
+GetEconomicData give me the value of {Federl debt | Series}
+GetEconomicData give me the value of {Money Stock | Series}
+GetEconomicData give me the value of {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData give me the value of {Housing Starts | Series}
+GetEconomicData give me the value of {Consumer Price Index in the United States | Series}
+GetEconomicData give me the value of {Probability of a recession in the United States | Series}
+GetEconomicData give me the value of {U.S. Euro Exchange Rate | Series}
+GetEconomicData give me the value of {dow jones industrial average | Series}
+GetEconomicData give me the value of {volatility | Series}
+GetEconomicData give me the value of {Total nonfarm payrolls | Series}
+GetEconomicData give me the value of {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData give me the value of {University of Michigan Inflation Expectation | Series}
+GetEconomicData give me the value of {Real Retail and Food Services Sales | Series}
+GetEconomicData give me the value of {Real Median Household Income in the United States | Series}
+GetEconomicData give me the value of {Ten year Swap Rate | Series}
+GetEconomicData give me the value of {Ten year treasury | Series}
+GetEconomicData give me the value of {Crude Oil Prices | Series}
+GetEconomicData give me the value of {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData give me the value of {Industrial Production Index | Series}
+GetEconomicData give me the value of {Federal Surplus or Deficit | Series}
+GetEconomicData tell me about {GDP | Series}
+GetEconomicData tell me about {Unemployment | Series}
+GetEconomicData tell me about {Unemployment Rate | Series}
+GetEconomicData tell me about {Unemployment in Greece | Series}
+GetEconomicData tell me about {dow jones | Series}
+GetEconomicData tell me about {Federl debt | Series}
+GetEconomicData tell me about {Money Stock | Series}
+GetEconomicData tell me about {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData tell me about {Housing Starts | Series}
+GetEconomicData tell me about {Consumer Price Index in the United States | Series}
+GetEconomicData tell me about {Probability of a recession in the United States | Series}
+GetEconomicData tell me about {U.S. Euro Exchange Rate | Series}
+GetEconomicData tell me about {dow jones industrial average | Series}
+GetEconomicData tell me about {volatility | Series}
+GetEconomicData tell me about {Total nonfarm payrolls | Series}
+GetEconomicData tell me about {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData tell me about {University of Michigan Inflation Expectation | Series}
+GetEconomicData tell me about {Real Retail and Food Services Sales | Series}
+GetEconomicData tell me about {Real Median Household Income in the United States | Series}
+GetEconomicData tell me about {Ten year Swap Rate | Series}
+GetEconomicData tell me about {Ten year treasury | Series}
+GetEconomicData tell me about {Crude Oil Prices | Series}
+GetEconomicData tell me about {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData tell me about {Industrial Production Index | Series}
+GetEconomicData tell me about {Federal Surplus or Deficit | Series}
+GetEconomicData tell me more about {GDP | Series}
+GetEconomicData tell me more about {Unemployment | Series}
+GetEconomicData tell me more about {Unemployment Rate | Series}
+GetEconomicData tell me more about {Unemployment in Greece | Series}
+GetEconomicData tell me more about {dow jones | Series}
+GetEconomicData tell me more about {Federl debt | Series}
+GetEconomicData tell me more about {Money Stock | Series}
+GetEconomicData tell me more about {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData tell me more about {Housing Starts | Series}
+GetEconomicData tell me more about {Consumer Price Index in the United States | Series}
+GetEconomicData tell me more about {Probability of a recession in the United States | Series}
+GetEconomicData tell me more about {U.S. Euro Exchange Rate | Series}
+GetEconomicData tell me more about {dow jones industrial average | Series}
+GetEconomicData tell me more about {volatility | Series}
+GetEconomicData tell me more about {Total nonfarm payrolls | Series}
+GetEconomicData tell me more about {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData tell me more about {University of Michigan Inflation Expectation | Series}
+GetEconomicData tell me more about {Real Retail and Food Services Sales | Series}
+GetEconomicData tell me more about {Real Median Household Income in the United States | Series}
+GetEconomicData tell me more about {Ten year Swap Rate | Series}
+GetEconomicData tell me more about {Ten year treasury | Series}
+GetEconomicData tell me more about {Crude Oil Prices | Series}
+GetEconomicData tell me more about {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData tell me more about {Industrial Production Index | Series}
+GetEconomicData tell me more about {Federal Surplus or Deficit | Series}
+GetEconomicData tell me the value of {GDP | Series}
+GetEconomicData tell me the value of {Unemployment | Series}
+GetEconomicData tell me the value of {Unemployment Rate | Series}
+GetEconomicData tell me the value of {Unemployment in Greece | Series}
+GetEconomicData tell me the value of {dow jones | Series}
+GetEconomicData tell me the value of {Federl debt | Series}
+GetEconomicData tell me the value of {Money Stock | Series}
+GetEconomicData tell me the value of {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData tell me the value of {Housing Starts | Series}
+GetEconomicData tell me the value of {Consumer Price Index in the United States | Series}
+GetEconomicData tell me the value of {Probability of a recession in the United States | Series}
+GetEconomicData tell me the value of {U.S. Euro Exchange Rate | Series}
+GetEconomicData tell me the value of {dow jones industrial average | Series}
+GetEconomicData tell me the value of {volatility | Series}
+GetEconomicData tell me the value of {Total nonfarm payrolls | Series}
+GetEconomicData tell me the value of {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData tell me the value of {University of Michigan Inflation Expectation | Series}
+GetEconomicData tell me the value of {Real Retail and Food Services Sales | Series}
+GetEconomicData tell me the value of {Real Median Household Income in the United States | Series}
+GetEconomicData tell me the value of {Ten year Swap Rate | Series}
+GetEconomicData tell me the value of {Ten year treasury | Series}
+GetEconomicData tell me the value of {Crude Oil Prices | Series}
+GetEconomicData tell me the value of {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData tell me the value of {Industrial Production Index | Series}
+GetEconomicData tell me the value of {Federal Surplus or Deficit | Series}
+GetEconomicData i would like to know about {GDP | Series}
+GetEconomicData i would like to know about {Unemployment | Series}
+GetEconomicData i would like to know about {Unemployment Rate | Series}
+GetEconomicData i would like to know about {Unemployment in Greece | Series}
+GetEconomicData i would like to know about {dow jones | Series}
+GetEconomicData i would like to know about {Federl debt | Series}
+GetEconomicData i would like to know about {Money Stock | Series}
+GetEconomicData i would like to know about {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData i would like to know about {Housing Starts | Series}
+GetEconomicData i would like to know about {Consumer Price Index in the United States | Series}
+GetEconomicData i would like to know about {Probability of a recession in the United States | Series}
+GetEconomicData i would like to know about {U.S. Euro Exchange Rate | Series}
+GetEconomicData i would like to know about {dow jones industrial average | Series}
+GetEconomicData i would like to know about {volatility | Series}
+GetEconomicData i would like to know about {Total nonfarm payrolls | Series}
+GetEconomicData i would like to know about {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData i would like to know about {University of Michigan Inflation Expectation | Series}
+GetEconomicData i would like to know about {Real Retail and Food Services Sales | Series}
+GetEconomicData i would like to know about {Real Median Household Income in the United States | Series}
+GetEconomicData i would like to know about {Ten year Swap Rate | Series}
+GetEconomicData i would like to know about {Ten year treasury | Series}
+GetEconomicData i would like to know about {Crude Oil Prices | Series}
+GetEconomicData i would like to know about {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData i would like to know about {Industrial Production Index | Series}
+GetEconomicData i would like to know about {Federal Surplus or Deficit | Series}
+GetEconomicData i would like to know the {GDP | Series}
+GetEconomicData i would like to know the {Unemployment | Series}
+GetEconomicData i would like to know the {Unemployment Rate | Series}
+GetEconomicData i would like to know the {Unemployment in Greece | Series}
+GetEconomicData i would like to know the {dow jones | Series}
+GetEconomicData i would like to know the {Federl debt | Series}
+GetEconomicData i would like to know the {Money Stock | Series}
+GetEconomicData i would like to know the {Federal Debt as Percent of Gross Domestic Product | Series}
+GetEconomicData i would like to know the {Housing Starts | Series}
+GetEconomicData i would like to know the {Consumer Price Index in the United States | Series}
+GetEconomicData i would like to know the {Probability of a recession in the United States | Series}
+GetEconomicData i would like to know the {U.S. Euro Exchange Rate | Series}
+GetEconomicData i would like to know the {dow jones industrial average | Series}
+GetEconomicData i would like to know the {volatility | Series}
+GetEconomicData i would like to know the {Total nonfarm payrolls | Series}
+GetEconomicData i would like to know the {St. Louis Fed Financial Stress Index | Series}
+GetEconomicData i would like to know the {University of Michigan Inflation Expectation | Series}
+GetEconomicData i would like to know the {Real Retail and Food Services Sales | Series}
+GetEconomicData i would like to know the {Real Median Household Income in the United States | Series}
+GetEconomicData i would like to know the {Ten year Swap Rate | Series}
+GetEconomicData i would like to know the {Ten year treasury | Series}
+GetEconomicData i would like to know the {Crude Oil Prices | Series}
+GetEconomicData i would like to know the {Trade Weighted U.S. Dollar Index | Series}
+GetEconomicData i would like to know the {Industrial Production Index | Series}
+GetEconomicData i would like to know the {Federal Surplus or Deficit | Series}
+AMAZON.HelpIntent help
+AMAZON.HelpIntent what can I search for
+AMAZON.HelpIntent what is available
+AMAZON.HelpIntent help me
+AMAZON.HelpIntent i need help
+AMAZON.StopIntent stop
+AMAZON.StopIntent thank you
+AMAZON.StopIntent shut up
+AMAZON.StopIntent cancel
+AMAZON.StopIntent exit
