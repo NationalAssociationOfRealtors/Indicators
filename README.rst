@@ -42,8 +42,8 @@ From the `AWS CLI`_, create the Lambda Function and upload your deployment packa
 From the AWS Lambda Console, add the "Alexa Skills Kit" event source to your Lambda Function.
 
 From the Alexa Developer Portal, create your application. Be sure to enter the correct Amazon Resource Name
-(ARN) for your Lambda Function under the Skill Information tab. Our Intent Schema, Custom Slot Types,
-and Sample Utterances are available in FRBAlexa/interactionModel. Test and deploy!
+(ARN) for your Lambda Function under the Skill Information tab. Our Intent Schema and Sample Utterances are
+available in FRBAlexa/interactions. Test and deploy!
 
 
 Basic usage
