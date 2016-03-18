@@ -16,7 +16,7 @@ This application was built to provide users with a framework for
 leveraging natural language to request information about economic data
 from the FRED API.
 
-Visit the `Federal Reserve Bank of St. Louis` to browse
+Visit the `Federal Reserve Bank of St. Louis`_ to browse
 available economic data series.
 
   .. _Federal Reserve Bank of St. Louis: https://research.stlouisfed.org/fred2/
