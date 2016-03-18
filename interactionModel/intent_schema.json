@@ -1,17 +1,19 @@
 {
   "intents": [
     {
-      "intent": "GetEconomicData",
-      "slots": [
-        {
-          "name": "Series",
-          "type": "LIST_OF_SERIES"
-        },
-        {
-          "name": "Date",
-          "type": "AMAZON.DATE"
-        }
-      ]
-    }
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+    "intent": "GetEconomicData",
+    "slots": [
+      {
+        "name": "Series",
+        "type": "AMAZON.LITERAL"
+      }
+    ]
+  }
   ]
 }
