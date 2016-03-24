@@ -28,25 +28,29 @@ def get_welcome_response():
 
 def get_economic_series(intent,session):
     session_attributes = {}
-    if 'Series' in intent['slots']:
-        series = intent['slots']['Series']['value']
-        series = series if not 's and p five hundred' in series else 's and p 500' 
-        searched = fr.series.search(series,params=config.SEARCH_PARAMS)
-        if searched:
-            title, units, _id = searched[0]['title'].replace(u'\xa9',''), searched[0]['units'], searched[0]['id']
-            units = dispatch_units(units)
-            res = fr.series.observations(_id,params=config.SERIES_PARAMS)[0]['value']
-            val = inf.number_to_words(float("%.2f" % float(res)))
-            speech_output = title + " is " + val + \
-                            ", " + units + "."
-            should_end_session = False
+    try:
+        if 'Series' in intent['slots']:
+            series = intent['slots']['Series']['value']
+            series = series if not 's and p five hundred' in series else 's and p 500'
+            searched = fr.series.search(series,params=config.SEARCH_PARAMS)
+            if searched:
+                title, units, _id = searched[0]['title'].replace(u'\xa9',''), searched[0]['units'], searched[0]['id']
+                units = dispatch_units(units)
+                res = fr.series.observations(_id,params=config.SERIES_PARAMS)[0]['value']
+                val = inf.number_to_words(float("%.2f" % float(res)))
+                speech_output = title + " is " + val + \
+                                " " + units + "."
+                should_end_session = False
+            else:
+                speech_output = config.NO_SERIES_FOUND
+                should_end_session = False
         else:
-            speech_output = config.NO_SERIES_FOUND
+            speech_output = config.NO_SERIES_FOUND_LONG
             should_end_session = False
-    else:
-        speech_output = config.NO_SERIES_FOUND_LONG
-        should_end_session = False
-    reprompt_text = "What economic data series are you interested in?"
+    except Exception:
+        speech_output = config.ERROR
+        should_end_session = True
+    reprompt_text = config.REPROMPT_SHORT
     # Setting reprompt_text to None signifies that we do not want to reprompt
     # the user. If the user does not respond or says something that is not
     # understood, the session will end.
@@ -59,7 +63,7 @@ def get_help_response():
     speech_output = config.HELP
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "What economic data series are you interested in?"
+    reprompt_text = config.REPROMPT_SHORT
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
