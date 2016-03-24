@@ -14,7 +14,10 @@ Features
 
 This application was built to provide users with a framework for
 leveraging natural language to request information about economic data
-from the FRED API.
+from the FRED API. It is built on top of the `FRB`_ python package.
+
+  .. _FRB: https://github.com/avelkoski/FRB
+
 
 Installation
 ------------
@@ -73,7 +76,7 @@ Sample data series
     Consumer Sentiment
     NASDAQ
     Nonfarm Payroll
-    
+
 Visit the `Federal Reserve Bank of St. Louis`_ to browse
 all of the available economic data series.
 
