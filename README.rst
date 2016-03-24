@@ -16,11 +16,6 @@ This application was built to provide users with a framework for
 leveraging natural language to request information about economic data
 from the FRED API.
 
-Visit the `Federal Reserve Bank of St. Louis`_ to browse
-available economic data series.
-
-  .. _Federal Reserve Bank of St. Louis: https://research.stlouisfed.org/fred2/
-
 Installation
 ------------
 
@@ -61,6 +56,28 @@ Get a response from Alexa:
 
     Gross Domestic Product is eighteen thousand, one hundred and forty-eight point four,  measured in billions of dollars.
 
+Sample data series
+------------------
+
+::
+
+    Housing Starts
+    Dow Jones Industrial Average
+    Household Income
+    Unemployment Rate
+    Probability of a Recession
+    S&P 500
+    30 Year Fixed Rate Mortgage Rate
+    Federal Funds Rate
+    Money Stock
+    Consumer Sentiment
+    NASDAQ
+    Nonfarm Payroll
+    
+Visit the `Federal Reserve Bank of St. Louis`_ to browse
+all of the available economic data series.
+
+  .. _Federal Reserve Bank of St. Louis: https://research.stlouisfed.org/fred2/
 
 
 License
