@@ -1,3 +1,4 @@
+from config import SPECIAL_UNITS
 # --------------- Helpers that build all of the responses ----------------------
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
@@ -28,15 +29,15 @@ def build_response(session_attributes, speechlet_response):
     }
 
 def dispatch_units(units):
-    if 'Index' in units:
+    if units in SPECIAL_UNITS:
+        text = SPECIAL_UNITS[units]
+    elif 'Index' in units:
         if len(units) > 6:
-            text = " measured as an Index, where " + units[6:].replace(':', ' ')
+            text = " measured as an Index, where " + units[6:].replace(':', ' ').replace('-',' through ')
         else:
-            text = " measured as an Index"
-    elif 'Normalized' in units:
-        text = " where units are " + units
+            text = " . "
     elif 'Ratio' in units:
-        text = " measured as Ratio"
+        text = " . "
     else:
-        text = " measured in " + units
+        text = " in " + units
     return text
