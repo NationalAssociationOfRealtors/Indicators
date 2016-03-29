@@ -57,7 +57,7 @@ Get a response from Alexa:
 
 ::
 
-    Gross Domestic Product is eighteen thousand, one hundred and forty-eight point four,  measured in billions of dollars.
+    Gross Domestic Product is eighteen thousand, one hundred and forty-eight point four in billions of dollars.
 
 Sample data series
 ------------------
