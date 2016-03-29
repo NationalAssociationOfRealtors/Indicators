@@ -35,9 +35,9 @@ def dispatch_units(units):
         if len(units) > 6:
             text = " measured as an Index, where " + units[6:].replace(':', ' ').replace('-',' through ')
         else:
-            text = " . "
+            text = " "
     elif 'Ratio' in units:
-        text = " . "
+        text = " "
     else:
         text = " in " + units
     return text
