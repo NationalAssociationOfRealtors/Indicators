@@ -8,19 +8,21 @@ SERIES_PARAMS = {'limit':1,'output_type':1,'sort_order':'desc'}
 
 ERROR = "I encountered an error. Goodbye."
 
-NO_SERIES_FOUND = "I could not find the economic data series.  \
+NO_SERIES_FOUND = "I could not find the data series.  \
                    Try again."
 
-NO_SERIES_FOUND_LONG = "I could not find the economic data series.  \
+NO_SERIES_FOUND_LONG = "I could not find the data series.  \
                    You can ask, what is the unemployment rate in Chicago, \
                    or what is the Labor Force Participation Rate for Men."
 
-REPROMPT_SHORT = "What economic data series are you interested in?"
+COPYRIGHT = "This data is subject to copyright restrictions. Please try a different series."
 
-HELP =  "Ask FRED to tell you about an economic data series. \
+REPROMPT_SHORT = "What data series are you interested in?"
+
+HELP =  "Ask Indicators to tell you about an economic data. \
         You can ask about GDP, Unemployment Rate, Federal Funds Rate, \
-        Housing Starts, Money Stock, the Consumer Price Index, \
-        Nonfarm Payroll, Consumer Sentiment, and much more. \
+        Housing Starts, Existing Home Sales, the Consumer Price Index, \
+        Nonfarm Payroll, and much more. \
         For more information about available series, visit \
         St. Louis Fed dot org"
 
