@@ -1,7 +1,7 @@
-FRBAlexa
-========
+Indicators
+==========
 Alexa Service for interacting with the Federal Reserve Bank's
-FRED API.
+FRED® API.
 
 ::
 
@@ -14,7 +14,7 @@ Features
 
 This application was built to provide users with a framework for
 leveraging natural language to request information about economic data
-from the FRED API. It is built on top of the `FRB`_ python package.
+from the FRED® API. It is built on top of the `FRB`_ python package.
 
   .. _FRB: https://github.com/avelkoski/FRB
 
@@ -41,7 +41,7 @@ From the AWS Lambda Console, add the "Alexa Skills Kit" event source to your Lam
 
 From the Alexa Developer Portal, create your application. Be sure to enter the correct Amazon Resource Name
 (ARN) for your Lambda Function under the Skill Information tab. Our Intent Schema and Sample Utterances are
-available in FRBAlexa/interactions. Test and deploy!
+available in Indicators/interactions. Test and deploy!
 
 
 Basic usage
@@ -51,7 +51,7 @@ Ask Alexa for the value of GDP:
 
 ::
 
-    Alexa, ask FRED for the value of GDP.
+    Alexa, ask Indicators for the value of GDP.
 
 Get a response from Alexa:
 
@@ -64,24 +64,29 @@ Sample data series
 
 ::
 
-    Housing Starts
-    Dow Jones Industrial Average
+    Existing Home Sales
     Household Income
     Unemployment Rate
     Probability of a Recession
-    S&P 500
-    30 Year Fixed Rate Mortgage Rate
+    Housing Starts
+    Loan to Value Ratio of New Car Loans
     Federal Funds Rate
-    Money Stock
-    Consumer Sentiment
-    NASDAQ
     Nonfarm Payroll
+    Median Sale Price of Existing Homes
+    Total Construction Spending
+
 
 Visit the `Federal Reserve Bank of St. Louis`_ to browse
-all of the available economic data series.
+all of the available data series.
 
   .. _Federal Reserve Bank of St. Louis: https://research.stlouisfed.org/fred2/
 
+::
+
+    Note that some data series are owned by third parties and subject to copyright
+    restrictions. If a user requests information about a copyrighted series, and
+    if we have not yet obtained permission to return information about the series,
+    Indicators will return a copyright statement.
 
 License
 -------
