@@ -19,7 +19,7 @@ COPYRIGHT = "This data is subject to copyright restrictions. Please try a differ
 
 REPROMPT_SHORT = "What data series are you interested in?"
 
-HELP =  "Ask Indicators to tell you about an economic data. \
+HELP =  "Ask Indicators to tell you about an economic data series. \
         You can ask about GDP, Unemployment Rate, Federal Funds Rate, \
         Housing Starts, Existing Home Sales, the Consumer Price Index, \
         Nonfarm Payroll, and much more. \
