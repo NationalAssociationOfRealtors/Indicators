@@ -1,6 +1,7 @@
 from __future__ import print_function
 from fred import Fred
 from helpers import *
+from series import APPROVED
 import config
 import inflect
 
@@ -15,12 +16,12 @@ def get_welcome_response():
 
     session_attributes = {}
     card_title = "Welcome"
-    speech_output = "Welcome to FRED, Federal Reserve Economic Data. " \
+    speech_output = "Welcome to Indicators, data about global economic activity. " \
                     "What would you like to know?"
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "Please tell me what economic data series you are interested in. " \
-                    "For example, you can say tell me the value of housing starts, \
+    reprompt_text = "Please tell me what data series you are interested in. " \
+                    "For example, you can say tell me about existing home sales, \
                      or what is the value of Federal Debt as a Percent of GDP. "
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -34,13 +35,16 @@ def get_economic_series(intent,session):
             series = series if not 's and p five hundred' in series else 's and p 500'
             searched = fr.series.search(series,params=config.SEARCH_PARAMS)
             if searched:
-                title, units, _id = searched[0]['title'].replace(u'\xa9',''), searched[0]['units'], searched[0]['id']
-                units = dispatch_units(units)
-                res = fr.series.observations(_id,params=config.SERIES_PARAMS)[0]['value']
-                val = inf.number_to_words(float("%.2f" % float(res)))
-                speech_output = title + " is " + val + \
-                                " " + units + "."
-                should_end_session = False
+                title, units, _id = searched[0]['title'], searched[0]['units'], searched[0]['id']
+                if u'\xa9' in title and _id not in APPROVED:
+                    speech_output = config.COPYRIGHT
+                    should_end_session = False
+                else:
+                    units = dispatch_units(units)
+                    res = fr.series.observations(_id,params=config.SERIES_PARAMS)[0]['value']
+                    val = inf.number_to_words(float("%.2f" % float(res)))
+                    speech_output = title + " is " + val + " " + units + "."
+                    should_end_session = False
             else:
                 speech_output = config.NO_SERIES_FOUND
                 should_end_session = False
