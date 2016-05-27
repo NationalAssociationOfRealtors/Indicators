@@ -41,7 +41,7 @@ From the AWS Lambda Console, add the "Alexa Skills Kit" event source to your Lam
 
 From the Alexa Developer Portal, create your application. Be sure to enter the correct Amazon Resource Name
 (ARN) for your Lambda Function under the Skill Information tab. Our Intent Schema and Sample Utterances are
-available in Indicators/interactions. Test and deploy!
+available in Indicators/interactions, and our invocation name is "Economic Indicators". Test and deploy!
 
 
 Basic usage
@@ -51,7 +51,7 @@ Ask Alexa for the value of GDP:
 
 ::
 
-    Alexa, ask Indicators for the value of GDP.
+    Alexa, ask Economic Indicators for the value of GDP.
 
 Get a response from Alexa:
 
