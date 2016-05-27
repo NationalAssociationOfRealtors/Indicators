@@ -6,25 +6,41 @@ RESPONSE_TYPE = 'dict'
 SEARCH_PARAMS = {'limit':5,'order_by':'search_rank','sort_order':'desc'}
 SERIES_PARAMS = {'limit':1,'output_type':1,'sort_order':'desc'}
 
-ERROR = "I encountered an error. Goodbye."
+WELCOME = "<speak>Welcome to Indicators, data about global economic activity. \
+                What would you like to know?</speak>"
 
-NO_SERIES_FOUND = "I could not find the data series.  \
-                   Try again."
+WELCOME_REPROMPT = "<speak>Please tell me what data series you are interested in. \
+                 For example, you can say tell me about existing home sales, \
+                 or what is the value of gross domestic product.</speak>"
 
-NO_SERIES_FOUND_LONG = "I could not find the data series.  \
-                   You can ask, what is the unemployment rate in Chicago, \
-                   or what is the Labor Force Participation Rate for Men."
+ERROR = "<speak>I encountered an error. Goodbye.</speak>"
 
-COPYRIGHT = "This data is subject to copyright restrictions. Please try a different series."
+NO_SERIES_FOUND = "<speak>I could not find the data series. Try again.</speak>"
 
-REPROMPT_SHORT = "What data series are you interested in?"
+NO_SERIES_FOUND_LONG = "<speak>I could not find the data series.  \
+                       You can ask, what is the unemployment rate in Chicago, \
+                       or what is the Labor Force Participation Rate for Men.</speak>"
 
-HELP =  "Ask Indicators to tell you about an economic data series. \
+COPYRIGHT = "<speak>This data is subject to copyright restrictions. Please try a different series.</speak>"
+
+REPROMPT_SHORT = "<speak>What data series are you interested in?</speak>"
+
+REPROMPT_LONG = "<speak>What data series are you interested in? \
+                You can ask, what is the unemployment rate in Chicago, \
+                or tell me about existing home sales.</speak>"
+
+PROMPT_AFTER_SUCCESS = "What else would you like to know?"
+
+PROMPT_AFTER_EMPTY = "<speak>Please ask about a data series, or, exit Indicators.</speak>"
+
+HELP =  "<speak>Ask Indicators to tell you about an economic data series. \
         You can ask about GDP, Unemployment Rate, Federal Funds Rate, \
         Housing Starts, Existing Home Sales, the Consumer Price Index, \
         Nonfarm Payroll, and much more. \
         For more information about available series, visit \
-        St. Louis Fed dot org"
+        St. Louis Fed dot org</speak>"
+
+GOODBYE = "<speak>Goodbye</speak>"
 
 SPECIAL_UNITS = {
        '+1 or 0':'where 1 is a positive case and 0 is a negative case',
