@@ -1792,14 +1792,322 @@ GetEconomicData what are {Ten Year Breakeven Inflation Rate | Series}
 GetEconomicData what are {Swiss Monetary Base Aggregate | Series}
 GetEconomicData what are {Loan To Value Ratio Used Car Loans | Series}
 GetEconomicData what are {Loan To Value Ratio New Car Loans | Series}
+GetEconomicData what is the {Retail Sales Excluding Food Services | Series}
+GetEconomicData what is the {Retail and Food Services Sales | Series}
+GetEconomicData what is the {Retail Sales and Food Services Excluding Motor Vehicles and Parts Dealers | Series}
+GetEconomicData what is the {Consumer Price Index | Series}
+GetEconomicData what is the {Consumer Price Index Less Food and Energy | Series}
+GetEconomicData what is the {Employment Cost Index | Series}
+GetEconomicData what is the {Industrial Production Index | Series}
+GetEconomicData what is the {Capacity Utilization | Series}
+GetEconomicData what is the {Industrial Production Manufacturing | Series}
+GetEconomicData what is the {Total Consumer Credit Outstanding | Series}
+GetEconomicData what is the {Student Loans Outstanding | Series}
+GetEconomicData what is the {Finance Rate on Consumer Installment Loans | Series}
+GetEconomicData what is the {Japan US Foreign Exchange Rate | Series}
+GetEconomicData what is the {Canada US Foreign Exchange Rate | Series}
+GetEconomicData what is the {US Euro Foreign Exchange Rate | Series}
+GetEconomicData what is the {Trade Weighted US Dollar Index | Series}
+GetEconomicData what is the {US Euro Foreign Exchange Rate | Series}
+GetEconomicData what is the {Japan US Foreign Exchange Rate | Series}
+GetEconomicData what is the {Effective Federal Funds Rate | Series}
+GetEconomicData what is the {Ten Year Treasury Constant Maturity Rate | Series}
+GetEconomicData what is the {Three Month Treasury Bill Secondary Market Rate | Series}
+GetEconomicData what is the {Monetary Base | Series}
+GetEconomicData what is the {All Federal Reserve Banks Total Assets | Series}
+GetEconomicData what is the {US Treasury securities held by the Federal Reserve | Series}
+GetEconomicData what is the {Reserve Balances with Federal Reserve Banks | Series}
+GetEconomicData what is the {M Two Money Stock | Series}
+GetEconomicData what is the {M One Money Stock | Series}
+GetEconomicData what is the {Commercial and Industrial Loans | Series}
+GetEconomicData what is the {Loans and Leases in Bank Credit | Series}
+GetEconomicData what is the {Total Assets All Commercial Banks | Series}
+GetEconomicData what is the {Total Business Inventories to Sales Ratio | Series}
+GetEconomicData what is the {Total Business Sales | Series}
+GetEconomicData what is the {ISM Manufacturing PMI Composite Index | Series}
+GetEconomicData what is the {ISM Manufacturing New Orders Index | Series}
+GetEconomicData what is the {ISM Manufacturing Employment Index | Series}
+GetEconomicData what is the {Housing Starts Total New Privately Owned Housing Units Started | Series}
+GetEconomicData what is the {New Private Housing Units Authorized by Building Permits | Series}
+GetEconomicData what is the {Housing Starts Total New Privately Owned | Series}
+GetEconomicData what is the {Producer Price Index for All Commodities | Series}
+GetEconomicData what is the {Manufacturing Sector Real Output | Series}
+GetEconomicData what is the {Nonfarm Business Sector Real Output Per Hour of All Persons | Series}
+GetEconomicData what is the {Nonfarm Business Sector Real Compensation Per Hour | Series}
+GetEconomicData what is the {Balance on current account | Series}
+GetEconomicData what is the {Civilian Unemployment Rate | Series}
+GetEconomicData what is the {Total Nonfarm Payrolls | Series}
+GetEconomicData what is the {Civilian Labor Force Participation Rate | Series}
+GetEconomicData what is the {US Exports of Goods to Japan | Series}
+GetEconomicData what is the {US Imports of Goods from Japan | Series}
+GetEconomicData what is the {Trade Balance Goods and Services | Series}
+GetEconomicData what is the {All Sectors Debt Securities and Loans | Series}
+GetEconomicData what is the {Nonfinancial corporate business debt securities | Series}
+GetEconomicData what is the {Federal government consumer credit student loans | Series}
+GetEconomicData what is the {Real Gross Domestic Product | Series}
+GetEconomicData what is the {Gross Domestic Product | Series}
+GetEconomicData what is the {Personal Saving Rate | Series}
+GetEconomicData what is the {Personal Consumption Expenditures | Series}
+GetEconomicData what is the {Net Interest Margin for all US Banks | Series}
+GetEconomicData what is the {Commercial Banks in the US | Series}
+GetEconomicData what is the {Return on Average Assets for all US Banks | Series}
+GetEconomicData what is the {Total Population All Ages including Armed Forces Overseas | Series}
+GetEconomicData what is the {National Population | Series}
+GetEconomicData what is the {MZM Money Stock | Series}
+GetEconomicData what is the {MZM Own Rate | Series}
+GetEconomicData what is the {MZM Money Stock | Series}
+GetEconomicData what is the {Monetary Services Index M Two | Series}
+GetEconomicData what is the {Monetary Services Index M One | Series}
+GetEconomicData what is the {M Two Plus Institutional Type Money Market Mutual Funds | Series}
+GetEconomicData what is the {M Two Less Small Time Deposits | Series}
+GetEconomicData what is the {M Two Minus Own Rate | Series}
+GetEconomicData what is the {M Two Less Small Time Deposits | Series}
+GetEconomicData what is the {St Louis Adjusted Monetary Base | Series}
+GetEconomicData what is the {St Louis Adjusted Reserves | Series}
+GetEconomicData what is the {M One Money Multiplier | Series}
+GetEconomicData what is the {Reserve Adjustment Magnitude | Series}
+GetEconomicData what is the {RAM | Series}
+GetEconomicData what is the {Total Public Debt | Series}
+GetEconomicData what is the {Federal Debt Held by Federal Reserve Banks | Series}
+GetEconomicData what is the {Federal Debt Held by the Public | Series}
+GetEconomicData what is the {Federal Surplus | Series}
+GetEconomicData what is the {Federal Deficit | Series}
+GetEconomicData what is the {Gross Domestic Product | Series}
+GetEconomicData what is the {Federal Outlays Interest | Series}
+GetEconomicData what is the {Gross Federal Debt | Series}
+GetEconomicData what is the {Gross Federal Debt Held by the Public | Series}
+GetEconomicData what is the {Commercial Paper Outstanding | Series}
+GetEconomicData what is the {Asset backed Commercial Paper Outstanding | Series}
+GetEconomicData what is the {Ninety Day AA Nonfinancial Commercial Paper Interest Rate | Series}
+GetEconomicData what is the {Household Debt Service Payments as a Percent of Disposable Personal Income | Series}
+GetEconomicData what is the {Consumer Debt Service Payments as a Percent of Disposable Personal Income | Series}
+GetEconomicData what is the {Consumer Sentiment | Series}
+GetEconomicData what is the {Inflation Expectation | Series}
+GetEconomicData what is the {Real Retail and Food Services Sales | Series}
+GetEconomicData what is the {Light Weight Vehicle Sales | Series}
+GetEconomicData what is the {Total Vehicle Sales | Series}
+GetEconomicData what is the {Auto Inventory Sales Ratio | Series}
+GetEconomicData what is the {Manufacturers New Orders Durable Goods | Series}
+GetEconomicData what is the {ManufacturerS New Orders Nondefense Capital | Series}
+GetEconomicData what is the {Value of Manufacturers' New Orders for All Manufacturing Industries | Series}
+GetEconomicData what is the {Median Sales Price for New Houses Sold in the United States | Series}
+GetEconomicData what is the {Monthly Supply of Houses in the United States | Series}
+GetEconomicData what is the {New One Family Houses Sold United States | Series}
+GetEconomicData what is the {Real Potential Gross Domestic Product | Series}
+GetEconomicData what is the {Natural Rate of Unemployment | Series}
+GetEconomicData what is the {Nominal Potential Gross Domestic Product | Series}
+GetEconomicData what is the {Eighth District Flexible Rate on Seasonal Credit | Series}
+GetEconomicData what is the {Federal Funds Target Range Upper Limit | Series}
+GetEconomicData what is the {Federal Funds Target Range Lower Limit | Series}
+GetEconomicData what is the {Primary Credit Rate for the Eighth District | Series}
+GetEconomicData what is the {St Louis Source Base | Series}
+GetEconomicData what is the {M Two Own Rate | Series}
+GetEconomicData what is the {Manufacturing Sector Multifactor Productivity | Series}
+GetEconomicData what is the {Private Non Farm Business Sector Multifactor Productivity | Series}
+GetEconomicData what is the {Private Business Sector Multifactor Productivity | Series}
+GetEconomicData what is the {Coincident Economic Activity Index for the United States | Series}
+GetEconomicData what is the {Coincident Economic Activity Index for California | Series}
+GetEconomicData what is the {Coincident Economic Activity Index for Wisconsin | Series}
+GetEconomicData what is the {Per Capita Personal Income in Tennessee | Series}
+GetEconomicData what is the {Per Capita Personal Income in Mississippi | Series}
+GetEconomicData what is the {Per Capita Personal Income in Kentucky | Series}
+GetEconomicData what is the {Resident Population in Louisville Jefferson County | Series}
+GetEconomicData what is the {Resident Population in St Louis | Series}
+GetEconomicData what is the {Resident Population in Texarkana | Series}
+GetEconomicData what is the {Unemployment Rate in California | Series}
+GetEconomicData what is the {Unemployment Rate in Florida | Series}
+GetEconomicData what is the {Unemployment Rate in Texas | Series}
+GetEconomicData what is the {Unemployment Rate in Seattle Tacoma Bellevue | Series}
+GetEconomicData what is the {Unemployment Rate in Houston The Woodlands Sugar Land | Series}
+GetEconomicData what is the {Unemployment Rate in Chicago Naperville Elgin | Series}
+GetEconomicData what is the {Unemployment Rate in Los Angeles County | Series}
+GetEconomicData what is the {Unemployment Rate in San Francisco County | Series}
+GetEconomicData what is the {Unemployment Rate in Miami Dade County | Series}
+GetEconomicData what is the {Resident Population in the Southwest | Series}
+GetEconomicData what is the {Resident Population in the Rocky Mountain | Series}
+GetEconomicData what is the {Resident Population in the New England Census Division | Series}
+GetEconomicData what is the {Resident Population in Los Angeles County | Series}
+GetEconomicData what is the {Resident Population in San Francisco County | Series}
+GetEconomicData what is the {Resident Population in Wayne County | Series}
+GetEconomicData what is the {Currency in Circulation | Series}
+GetEconomicData what is the {Reserve Bank Credit | Series}
+GetEconomicData what is the {Treasury Deposits with Federal Reserve Banks | Series}
+GetEconomicData what is the {Per Capita Personal Income in New York Northern New Jersey Long Island | Series}
+GetEconomicData what is the {Per Capita Personal Income in Chicago Joliet Naperville | Series}
+GetEconomicData what is the {Per Capita Personal Income in Denver Aurora Broomfield | Series}
+GetEconomicData what is the {US Total Gross Domestic Product by State | Series}
+GetEconomicData what is the {Real Total Gross Domestic Product for California | Series}
+GetEconomicData what is the {Total Gross Domestic Product for Florida | Series}
+GetEconomicData what is the {State Government Tax Collections Property Taxes in the United States | Series}
+GetEconomicData what is the {State Government Tax Collections Total Taxes in the United States | Series}
+GetEconomicData what is the {State Government Tax Collections Individual Income Taxes in the United States | Series}
+GetEconomicData what is the {Homeownership Rate for the United States | Series}
+GetEconomicData what is the {Homeownership Rate for California | Series}
+GetEconomicData what is the {Rental Vacancy Rate for the United States | Series}
+GetEconomicData what is the {NMI Composite Index | Series}
+GetEconomicData what is the {Business Activity Index | Series}
+GetEconomicData what is the {Employment Index | Series}
+GetEconomicData what is the {Per Capita Personal Income in California | Series}
+GetEconomicData what is the {Per Capita Personal Income in Texas | Series}
+GetEconomicData what is the {Per Capita Personal Income in New York | Series}
+GetEconomicData what is the {All Transactions House Price Index for the United States | Series}
+GetEconomicData what is the {Purchase Only House Price Index for the United States | Series}
+GetEconomicData what is the {All Transactions House Price Index for California | Series}
+GetEconomicData what is the {Per Capita Personal Income in San Francisco Count | Series}
+GetEconomicData what is the {Per Capita Personal Income in Wayne County | Series}
+GetEconomicData what is the {E Commerce Retail Sales as a Percent of Total Sales | Series}
+GetEconomicData what is the {E Commerce Retail Sales | Series}
+GetEconomicData what is the {Four Week Moving Average of Initial Claims | Series}
+GetEconomicData what is the {Initial Claims | Series}
+GetEconomicData what is the {Continued Claims Insured Unemployment | Series}
+GetEconomicData what is the {US Regular All Formulations Gas Price | Series}
+GetEconomicData what is the {US Regular Conventional Gas Price | Series}
+GetEconomicData what is the {Interest Rate on Excess Reserves | Series}
+GetEconomicData what is the {Interest Rate on Required Reserves | Series}
+GetEconomicData what is the {US Euro Foreign Exchange Rate | Series}
+GetEconomicData what is the {Japan US Foreign Exchange Rate | Series}
+GetEconomicData what is the {China US Foreign Exchange Rate | Series}
+GetEconomicData what is the {St Louis Fed Financial Stress Index | Series}
+GetEconomicData what is the {Import All commodities | Series}
+GetEconomicData what is the {Export All commodities | Series}
+GetEconomicData what is the {S and P Five Hundred | Series}
+GetEconomicData what is the {Thrity Year Fixed Rate Mortgage | Series}
+GetEconomicData what is the {Fifteen Year Fixed Rate Mortgage | Series}
+GetEconomicData what is the {Five One Year Adjustable Rate Mortgage  | Series}
+GetEconomicData what is the {Job Openings Total Nonfarm | Series}
+GetEconomicData what is the {Quits Total Nonfarm | Series}
+GetEconomicData what is the {Hires Total Nonfarm | Series}
+GetEconomicData what is the {Velocity of M Two Money Stock | Series}
+GetEconomicData what is the {Velocity of M One Money Stock | Series}
+GetEconomicData what is the {Velocity of MZM Money Stock | Series}
+GetEconomicData what is the {Total Nonfarm Private Payroll Employment | Series}
+GetEconomicData what is the {Nonfarm Private Manufacturing Payroll Employment | Series}
+GetEconomicData what is the {Nonfarm Private Small Payroll Employment | Series}
+GetEconomicData what is the {Wilshire Five Thousand Total Market Full Cap Index | Series}
+GetEconomicData what is the {Wilshire Five Thousand Full Cap Price Index | Series}
+GetEconomicData what is the {Wilshire Five Thousand Total Market Index | Series}
+GetEconomicData what is the {Dow Jones Industrial Average | Series}
+GetEconomicData what is the {Dow Jones Composite Average | Series}
+GetEconomicData what is the {Dow Jones Transportation Average | Series}
+GetEconomicData what is the {Kansas City Financial Stress Index | Series}
+GetEconomicData what is the {S and P Case Shiller Twenty City Composite Home Price Index | Series}
+GetEconomicData what is the {S and P Case Shiller US National Home Price Index | Series}
+GetEconomicData what is the {S and P Case Shiller San Francisco Home Price Index | Series}
+GetEconomicData what is the {CBOE Volatility Index | Series}
+GetEconomicData what is the {CBOE Gold ETF Volatility Index | Series}
+GetEconomicData what is the {CBOE Crude Oil ETF Volatility Index | Series}
+GetEconomicData what is the {Working Age Population | Series}
+GetEconomicData what is the {Gross Domestic Product in Germany | Series}
+GetEconomicData what is the {Gross Domestic Product in Canada | Series}
+GetEconomicData what is the {Gross Domestic Product in Japan | Series}
+GetEconomicData what is the {Leading Index for the United States | Series}
+GetEconomicData what is the {Leading Index for California | Series}
+GetEconomicData what is the {Leading Index for Texas | Series}
+GetEconomicData what is the {US High Yield Option Adjusted Spread | Series}
+GetEconomicData what is the {US High Yield Effective Yield | Series}
+GetEconomicData what is the {US Corporate BBB Option Adjusted Spread | Series}
+GetEconomicData what is the {Crude Oil Prices | Series}
+GetEconomicData what is the {Weighted Average Effective Loan Rate | Series}
+GetEconomicData what is the {Total Value of Loans for All Commercial Loans | Series}
+GetEconomicData what is the {Average Loan Size for All Commercial and Industry Loans | Series}
+GetEconomicData what is the {Chicago Fed National Activity Index | Series}
+GetEconomicData what is the {Chicago Fed National Activity Index Three Month Moving Average | Series}
+GetEconomicData what is the {Chicago Fed National Activity Index Diffusion Index | Series}
+GetEconomicData what is the {Chicago Fed National Financial Conditions Index | Series}
+GetEconomicData what is the {Chicago Fed National Financial Conditions Index Nonfinancial Leveral Subindex | Series}
+GetEconomicData what is the {Chicago Fed National Financial Conditions Credit Subindex | Series}
+GetEconomicData what is the {Median Sales Price of Houses Sold | Series}
+GetEconomicData what is the {Average Sales Price of Houses Sold | Series}
+GetEconomicData what is the {New Houses Sold by Sales Price | Series}
+GetEconomicData what is the {New Privately Owned Housing Starts | Series}
+GetEconomicData what is the {Total Construction Spending | Series}
+GetEconomicData what is the {Total Construction Spending Nonresidential | Series}
+GetEconomicData what is the {Total Private Construction Spending Residential | Series}
+GetEconomicData what is the {Delinquency Rate on Single Family Residential Mortgages | Series}
+GetEconomicData what is the {Delinquency Rate on Credit Card Loans All Commercial Banks | Series}
+GetEconomicData what is the {Inflation consumer prices for the United States | Series}
+GetEconomicData what is the {Gross Domestic Product for China | Series}
+GetEconomicData what is the {GINI Index for the United States | Series}
+GetEconomicData what is the {Housing Affordability Index | Series}
+GetEconomicData what is the {Housing Affordability Index Fixed | Series}
+GetEconomicData what is the {Household Debt to GDP | Series}
+GetEconomicData what is the {Commercial Real Estate Prices | Series}
+GetEconomicData what is the {Total Debt to Equity | Series}
+GetEconomicData what is the {Interest Rates Discount Rate | Series}
+GetEconomicData what is the {General government gross debt for Japan | Series}
+GetEconomicData what is the {General government gross debt for China | Series}
+GetEconomicData what is the {General government gross debt for United States | Series}
+GetEconomicData what is the {NBER based Recession Indicators | Series}
+GetEconomicData what is the {OECD based Recession Indicators | Series}
+GetEconomicData what is the {Real Trade Weighted US Dollar Index | Series}
+GetEconomicData what is the {Real Median Household Income | Series}
+GetEconomicData what is the {Real Median Family Income | Series}
+GetEconomicData what is the {Median Household Income | Series}
+GetEconomicData what is the {One Month London Interbank Offered Rate | Series}
+GetEconomicData what is the {Three Month London Interbank Offered Rate | Series}
+GetEconomicData what is the {Twelve Month London Interbank Offered Rate | Series}
+GetEconomicData what is the {LIBOR | Series}
+GetEconomicData what is the {Vehicle Miles Traveled | Series}
+GetEconomicData what is the {Unemployment Rate for United States | Series}
+GetEconomicData what is the {Unemployment Rate | Series}
+GetEconomicData what is the {Dow Jones Industrial Stock Price Index for United States | Series}
+GetEconomicData what is the {Price Level of Consumption for United States | Series}
+GetEconomicData what is the {Purchasing Power Parity | Series}
+GetEconomicData what is the {Exchange Rate to US Dollar for Argentina | Series}
+GetEconomicData what is the {US Recession Probabilities | Series}
+GetEconomicData what is the {Gross Domestic Product for United Kingdom | Series}
+GetEconomicData what is the {Real Gross Domestic Product for Greece | Series}
+GetEconomicData what is the {Gross Domestic Product for United Kingdom | Series}
+GetEconomicData what is the {Gross Domestic Product for Japan | Series}
+GetEconomicData what is the {Central Bank Assets for Euro Area | Series}
+GetEconomicData what is the {LoDI National Index | Series}
+GetEconomicData what is the {Stock Market Capitalization to GDP for United States | Series}
+GetEconomicData what is the {Stock Market Capitalization to GDP for World | Series}
+GetEconomicData what is the {Gross Domestic Product for World | Series}
+GetEconomicData what is the {Equity Market related Economic Uncertainty Index | Series}
+GetEconomicData what is the {Economic Policy Uncertainty Index for United States | Series}
+GetEconomicData what is the {Excess Reserves of Depository Institutions | Series}
+GetEconomicData what is the {Russell Two Thousand Price Index | Series}
+GetEconomicData what is the {Russell Three Thousand Total Market Index | Series}
+GetEconomicData what is the {Russell Three Thousand Price Index | Series}
+GetEconomicData what is the {Capital Stock at Constant National Prices for United States | Series}
+GetEconomicData what is the {Total Factor Productivity at Constant National Prices for United States | Series}
+GetEconomicData what is the {Real GDP at Constant National Prices for China | Series}
+GetEconomicData what is the {Nikkei Stock Average | Series}
+GetEconomicData what is the {Total Revenue for Real Estate and Rental and Leasing Establishments Subject to Federal Income Tax | Series}
+GetEconomicData what is the {Revenues from Business for Engineering Services Establishments Subject to Federal Income Tax | Series}
+GetEconomicData what is the {Existing Home Sales | Series}
+GetEconomicData what is the {Median Sales Price of Existing Homes | Series}
+GetEconomicData what is the {Existing Home Sales Housing Inventory | Series}
+GetEconomicData what is the {Chicago Fed Midwest Manufacturing Index | Series}
+GetEconomicData what is the {Relative Price of Investment Goods | Series}
+GetEconomicData what is the {Real Investment | Series}
+GetEconomicData what is the {Investment Deflator | Series}
+GetEconomicData what is the {Homeownership Rate for the United States | Series}
+GetEconomicData what is the {Housing Inventory Estimate | Series}
+GetEconomicData what is the {Rental Vacancy Rate for the United States | Series}
+GetEconomicData what is the {TED Spread | Series}
+GetEconomicData what is the {Ten Year Breakeven Inflation Rate | Series}
+GetEconomicData what is the {Swiss Monetary Base Aggregate | Series}
+GetEconomicData what is the {Loan To Value Ratio Used Car Loans | Series}
+GetEconomicData what is the {Loan To Value Ratio New Car Loans | Series}
 AMAZON.HelpIntent help
-AMAZON.HelpIntent what can I search for
-AMAZON.HelpIntent what is available
+AMAZON.HelpIntent what can I search
 AMAZON.HelpIntent help me
 AMAZON.HelpIntent i need help
+AMAZON.HelpIntent what data series are available
+AMAZON.HelpIntent what can I ask you
+AMAZON.HelpIntent what do you do
+AMAZON.HelpIntent how can I use you
+AMAZON.HelpIntent help me
 AMAZON.StopIntent stop
 AMAZON.StopIntent thank you
-AMAZON.StopIntent shut up
 AMAZON.StopIntent cancel
 AMAZON.StopIntent exit
-AMAZON.StopIntent goodbye
+AMAZON.StopIntent leave
+AMAZON.StopIntent quit
+AMAZON.StopIntent bye
+AMAZON.StopIntent good bye
+AMAZON.StopIntent enough
+AMAZON.StopIntent please stop
+AMAZON.StopIntent I'm done
