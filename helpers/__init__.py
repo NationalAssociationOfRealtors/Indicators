@@ -1,20 +1,27 @@
 from config import SPECIAL_UNITS
+from re import compile as comp
 # --------------- Helpers that build all of the responses ----------------------
+
+tag = comp(r'<[^>]+>')
+
+def remove_tags(text):
+    return tag.sub('', text)
+
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
         'outputSpeech': {
-            'type': 'PlainText',
-            'text': output
+            'type': 'SSML',
+            'ssml': output
         },
         'card': {
             'type': 'Simple',
-            'title': 'SessionSpeechlet - ' + title,
-            'content': 'SessionSpeechlet - ' + output
+            'title': title,
+            'content':remove_tags(output)
         },
         'reprompt': {
             'outputSpeech': {
-                'type': 'PlainText',
-                'text': reprompt_text
+                'type': 'SSML',
+                'ssml': reprompt_text
             }
         },
         'shouldEndSession': should_end_session
